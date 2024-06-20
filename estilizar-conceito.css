@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: #be3232;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header ul,li,p,a{
+    list-style: none;
+    font-size: 1.2rem;
+    height: 15px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+a{
+        text-decoration: none;
+    color: #ffffff;
+    }
+
+.header{
+    background: rgb(0, 12, 18);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20.5px;
+}
+
+.conteudo1{ 
+        background-color:#ADB5BD;
+        display: flex;
+        height: 350px;
+        gap: 10px;
+        margin-top: 0px;
+    }
+
+.conteudo2{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 190px;
+}
+
+.item1{
+    height: 100%;
+    width: 50%;
+    margin-top: 50px;
+}
+.item1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.item1 h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item2{
+        background-color: #495057;
+        height: 100%;
+        width: 50%;
+    }
+
+  .item2 p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .item2 h1{
+        text-align: center;
+        margin-top: 62px;
+    }
+    .item3{
+         background-color:#ADB5BD;
+    }
+    .item3 p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .item3 h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .item4{
+        background-color:#495057;   
+    }
+    .item4 p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .item4 h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .item5{
+        background-color:#ADB5BD;
+    }
+    .item5 p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .item5 h1{
+        text-align: center;
+        margin-top: 10px;
+    }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="estilizar-compras.css">
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="LOGO">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="conceito.html">Conceito</a></li>
+        <li><a href="#">Support</a></li>
+        </ul>
+  </div>
+
+        <man>
+            <h1>CLIQUE NA MARCA DE CARROS DE SUA PREFERÊNCIA</h1>
+            <section class="pag2">
+                <div>
+                    <a href="/"><img class="img1" src="./img.audi.jpg"></a>
+                    <p>Audi</p>
+                </div>
+                <div>
+                    <a href="produtos.html"><img class="img1" src="download.jfif"></a>
+                    <p>FIAT</p>
+                </div>
+                <div>
+                    <a href="/"><img class="img2" src="./img.chevrolet.jpg"></a>
+                    <p>chevrolet</p>
+                </div>
+                <div>
+                    <a href="/"><img  class="img3" src="./img.ford.jpg"></a>
+                    <p>Ford</p>
+                </div>
+                <div>
+                    <a href="/"><img  class="img4" src="./img.honda.png"></a>
+                    <p>Honda</p>
+                </div>
+                <div>
+                    <a href="/"><img  class="img4" src="merce.jpg"></a>
+                    <p>mercedes</p>
+                </div>
+                <!--essas class imgs são só pra colocar o efeito do java-->
+                <div>
+                    <a href="/"><img  class="img4" src="nisan.jpg"></a>
+                    <p>nisan</p>
+                </div>
+            </section> 
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+    <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".img1"),{
+       max:25,
+       speed:400,
+    });
+    VanillaTilt.init(document.querySelectorAll(".img2"),{
+       max:25,
+       speed:400,
+    });
+    VanillaTilt.init(document.querySelectorAll(".img3"),{
+       max:25,
+       speed:400,
+    });
+    VanillaTilt.init(document.querySelectorAll(".img4"),{
+       max:25,
+       speed:400,
+    });
+    </script>
+</body>
+</html>
